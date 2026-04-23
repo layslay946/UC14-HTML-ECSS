@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Colorido</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff7eb3, #65d6ce);
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+      background: rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #333;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    button {
+      background: linear-gradient(45deg, #ff4e50, #f9d423);
+      border: none;
+      padding: 15px 25px;
+      border-radius: 30px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌈 Meu Site Colorido</h1>
+    <p>Um exemplo bem bonito e divertido!</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>✨ Card 1</h2>
+      <p>Esse é um bloco estiloso com sombra e animação.</p>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Card 2</h2>
+      <p>Passe o mouse para ver o efeito!</p>
+    </div>
+
+    <button onclick="alert('Você clicou! 🎉')">Clique aqui</button>
+  </div>
+
+  <footer>
+    <p>Feito com ❤️</p>
+  </footer>
+
+</body>
+</html>
