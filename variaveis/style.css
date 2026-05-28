@@ -1,0 +1,43 @@
+root{
+    --cor-primaria: pink;
+    --cor-secundária: blue ;
+--cor-fundo:white;
+--cor-texto: black;/
+--cor-branca: white;
+
+--fonte-principal: Arial, sans-serif;
+
+--borda-radius: 10px
+--sombra: 0 4px 10px black; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    background-color:var(--cor-fundo);
+    display: flex;
+
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+caixa {
+    background-color: aliceblue;
+    border: var(--borda-radius);
+    border-radius: var(--borda-radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+    width: 300px;
+}
+button
+    {
+        background-color: var(--cor-primaria);
+        color: aliceblue;
+        border: none;
+        padding: 10px 20px;
+        ;
+    }
+h1{
+    color: var(--cor-secundária);
+}
