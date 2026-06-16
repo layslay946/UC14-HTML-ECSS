@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6f2;
+}
+
+.botao{
+    padding: 40px 80px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: #d63384;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    animation: pulsar 2s infinite;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+}
+
+@keyframes pulsar{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
