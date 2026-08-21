@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eaf6ff;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #1976d2;
+    font-size: 40px;
+}
+
+p {
+    font-size: 22px;
+    margin: 20px;
+}
+
+#temperatura {
+    color: #333;
+}
+
+#mensagem {
+    font-weight: bold;
+    font-size: 28px;
+}
